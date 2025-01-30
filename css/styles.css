@@ -19,9 +19,9 @@ ul {
     border: 0;
 }
 
-body {
+/*body {
     background-color: #9d0cad;
-}
+}*/
 
 header {
     position: sticky;
@@ -33,7 +33,7 @@ header {
     font-size: 40px;
 }
 
-header img {
+/*header img {
     margin: 0 auto;
 }
 
@@ -118,7 +118,7 @@ header img {
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
+}*/
 
 main {
     clear: left;
@@ -127,17 +127,17 @@ main {
     font-size: 1.15em;
     font-family: 'Roboto Slab', serif;
 }
-
+/*
 .hero {
     max-width: 20%;
     max-height: 10%;
-}
+}*/
 
 .about {
     font-size: 20px;
     text-align: center;
 }
-
+/*
 .family {
     max-width: 90%;
     max-height: 90%;
@@ -223,13 +223,14 @@ footer p {
     color: #DFE0DA;
     padding: 0 1em;
 }
+*/
 
 footer p a {
     color: #DFE0DA;
     /* Sets the link colour */
     text-decoration: none;
 }
-
+/*
 footer h4 {
     color: #DFE0DA;
     text-align: center;
@@ -248,7 +249,7 @@ footer li {
     font-size: 1.35em;
     color: #666600;
     font-weight: bold;
-}
+}*/
 
 .mobile {
     display: block;
@@ -257,7 +258,7 @@ footer li {
 .tablet-desktop {
     display: none;
 }
-
+/*
 .tel-link {
     background-color: #9d0cad;
     padding: 1%;
@@ -319,7 +320,7 @@ footer li {
 
 .hours {
     margin-left: 10%;
-}
+}*/
 
 .box_column {
     width: 100%;
@@ -333,6 +334,7 @@ footer li {
     border: 1px groove;
     border: #DFE0DA;
     padding: 5px;
+    text-align: center;
 }
 
 .colour_box {
@@ -501,166 +503,6 @@ footer li {
 .intro {
     font-size: 25px;
     text-align: center;
-}
-
-.Wellness_Package_content h1 {
-    font-size: 30px;
-}
-
-.Wellness_Package_content h2 {
-    font-size: 20px;
-    font-weight: normal;
-    text-align: center;
-}
-
-.Wellness_Package_content dt {
-    font-size: 20px;
-}
-
-.Wellness_Package_content dd {
-    font-size: 20px;
-}
-
-
-.Play_date h1 {
-    font-size: 30px;
-}
-
-.Play_date h2 {
-    font-size: 20px;
-    font-weight: normal;
-    text-align: center;
-}
-
-.Play_date h3 {
-    font-size: 25px;
-}
-
-.Play_date li {
-    font-size: 20px;
-}
-
-.Play_date p {
-    font-size: 20px;
-}
-
-.Dog_info {
-    text-align: center;
-}
-
-.Wellness_info {
-    text-align: center;
-}
-
-/*Booking Form*/
-.basic_info {
-    background-color: #f2f2f2;
-    padding: 5px 20px 15px 20px;
-    border: 1px solid lightgrey;
-    border-radius: 3px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.pet {
-    background-color: #f2f2f2;
-    padding: 5px 20px 15px 20px;
-    border: 1px solid lightgrey;
-    border-radius: 3px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.payment {
-    background-color: #f2f2f2;
-    padding: 5px 20px 15px 20px;
-    border: 1px solid lightgrey;
-    border-radius: 3px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.booking_details {
-    background-color: #f2f2f2;
-    padding: 5px 20px 15px 20px;
-    border: 1px solid lightgrey;
-    border-radius: 3px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-hr {
-    border: 1px dotted #ccc;
-}
-
-.reset {
-    height: 50px;
-    background-color: #9d0cad;
-    border: none;
-    color: white;
-    font-size: 20px;
-    font-family: 'Nanum Gothic';
-    border-radius: 4px;
-    cursor: pointer;
-    width: 25%;
-}
-
-.reset:hover {
-    border: 2px solid black;
-    background-color: #9d0cad;
-}
-
-.btn {
-    height: 50px;
-    background-color: #9d0cad;
-    border: none;
-    color: white;
-    font-size: 20px;
-    font-family: 'Nanum Gothic';
-    border-radius: 4px;
-    cursor: pointer;
-    width: 70%;
-}
-
-.btn:hover {
-    border: 2px solid black;
-    background-color: #9d0cad;
-}
-
-.required {
-    color: red;
-}
-
-input select {
-    border-radius: 2px;
-    border: 2px solid #777;
-    box-sizing: border-box;
-    font-size: 20px;
-    font-family: 'Nanum Gothic';
-    width: 100%;
-    padding: 10px;
-}
-
-textarea {
-    border-radius: 2px;
-    border: 2px solid #777;
-    box-sizing: border-box;
-    font-size: 20px;
-    font-family: 'Nanum Gothic';
-    width: 100%;
-    height: 30%;
-    padding: 10px;
-}
-
-label {
-    display: block;
-    font-family: 'Nanum Gothic';
-    padding-bottom: 10px;
-    font-size: 20px;
 }
 
 /*Formatting for printing of learning page */
