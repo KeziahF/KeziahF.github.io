@@ -213,9 +213,7 @@ img {
     display: block;
 }
 
-footer {
-    background-color: #0f0210;
-}
+
 
 footer p {
     font-size: 1em;
@@ -224,6 +222,10 @@ footer p {
     padding: 0 1em;
 }
 */
+
+footer {
+    background-color: #0f0210;
+}
 
 footer p a {
     color: #DFE0DA;
