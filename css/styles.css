@@ -33,7 +33,7 @@ header {
     font-size: 40px;
 }
 
-/*header img {
+header img {
     margin: 0 auto;
 }
 
@@ -90,13 +90,13 @@ header {
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: #9d0cad;
+    background-color: #0e0e0e;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #9d0cad;
+    background-color: #0e0e0e;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -113,12 +113,12 @@ header {
 }
 
 .dropdown-content a:hover {
-    background-color: #9d0cad;
+    background-color: #0e0e0e;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
-}*/
+}
 
 main {
     clear: left;
@@ -262,7 +262,7 @@ footer li {
 }
 
 .tel-link {
-    background-color: #9d0cad;
+    background-color: #0e0e0e;
     padding: 1%;
     margin: 0 auto;
     width: 50%;
@@ -282,7 +282,7 @@ footer li {
 }
 
 .em-link a {
-    color: #83108a;
+    color: #0e0e0e;
     text-decoration: underline;
     font-size: 20px;
     display: block;
@@ -293,7 +293,7 @@ footer li {
 }
 
 .email {
-    background-color: #9d0cad;
+    background-color: #0e0e0e;
     padding: 1%;
     margin: 0 auto;
     width: 50%;
@@ -303,7 +303,7 @@ footer li {
 }
 
 .fax {
-    background-color: #9d0cad;
+    background-color: #0e0e0e;
     padding: 1%;
     margin: 0 auto;
     width: 50%;
@@ -312,7 +312,7 @@ footer li {
 }
 
 .address {
-    background-color: #9d0cad;
+    background-color: #0e0e0e;
     padding: 1%;
     margin: 0 auto;
     width: 50%;
