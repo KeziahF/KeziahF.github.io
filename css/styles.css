@@ -26,8 +26,8 @@ body {
 header {
     position: sticky;
     top: 0;
-    background-color: #9d0cad;
-    color: #9d0cad;
+    background-color: #070108;
+    color: #e989cf;
     height: 15%;
     text-align: center;
     font-size: 40px;
@@ -129,8 +129,8 @@ main {
 }
 
 .hero {
-    max-width: 100%;
-    max-height: 15%;
+    max-width: 20%;
+    max-height: 10%;
 }
 
 .about {
@@ -214,7 +214,7 @@ img {
 }
 
 footer {
-    background-color: #9d0cad;
+    background-color: #0f0210;
 }
 
 footer p {
