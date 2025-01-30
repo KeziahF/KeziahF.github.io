@@ -20,14 +20,14 @@ ul {
 }
 
 body {
-    background-color: #276BA0;
+    background-color: #dd58e5;
 }
 
 header {
     position: sticky;
     top: 0;
-    background-color: #276BA0;
-    color: #7FC1BF;
+    background-color: #dd58e5;
+    color: #dd58e5;
     height: 15%;
     text-align: center;
     font-size: 40px;
@@ -45,9 +45,9 @@ header img {
 
 .navbar {
     overflow: hidden;
-    background-color: #276BA0;
+    background-color: #dd58e5;
     top: 5.5%;
-    color: #7FC1BF;
+    color: #dd58e5;
     height: 15%;
     text-align: center;
     font-size: 20px;
@@ -90,13 +90,13 @@ header img {
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: #7FC1BF;
+    background-color: #dd58e5;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #276BA0;
+    background-color: #dd58e5;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -113,7 +113,7 @@ header img {
 }
 
 .dropdown-content a:hover {
-    background-color: #7FC1BF;
+    background-color: #dd58e5;
 }
 
 .dropdown:hover .dropdown-content {
@@ -193,7 +193,7 @@ main {
     text-align: center;
     color: #000000;
     padding: 10px 10px 10px 15px;
-    background-color: #8EAA43;
+    background-color: #e989cf;
     margin-bottom: 30px;
     font-size: 30px;
 }
@@ -214,7 +214,7 @@ img {
 }
 
 footer {
-    background-color: #276BA0;
+    background-color: #dd58e5;
 }
 
 footer p {
@@ -259,7 +259,7 @@ footer li {
 }
 
 .tel-link {
-    background-color: #7FC1BF;
+    background-color: #dd58e5;
     padding: 1%;
     margin: 0 auto;
     width: 50%;
@@ -279,7 +279,7 @@ footer li {
 }
 
 .em-link a {
-    color: darkblue;
+    color: #83108a;
     text-decoration: underline;
     font-size: 20px;
     display: block;
@@ -290,7 +290,7 @@ footer li {
 }
 
 .email {
-    background-color: #7FC1BF;
+    background-color: #dd58e5;
     padding: 1%;
     margin: 0 auto;
     width: 50%;
@@ -300,7 +300,7 @@ footer li {
 }
 
 .fax {
-    background-color: #7FC1BF;
+    background-color: #dd58e5;
     padding: 1%;
     margin: 0 auto;
     width: 50%;
@@ -309,7 +309,7 @@ footer li {
 }
 
 .address {
-    background-color: #7FC1BF;
+    background-color: #dd58e5;
     padding: 1%;
     margin: 0 auto;
     width: 50%;
@@ -339,7 +339,7 @@ footer li {
 .colour_box li {
     color: #000;
     padding: 10px 10px 10px 15px;
-    background-color: #8EAA43;
+    background-color: #e989cf;
     margin-bottom: 3px;
     font-size: 25px;
 }
@@ -460,21 +460,21 @@ footer li {
 }
 
 .submitted h1 {
-    background-color: #8EAA43;
+    background-color: #e989cf;
     font-weight: bold;
     text-align: center;
     padding: 10px 10px 10px 15px;
 }
 
 .article h1 {
-    background-color: #8EAA43;
+    background-color: #e989cf;
     font-weight: bold;
     text-align: center;
     padding: 10px 10px 10px 15px;
 }
 
 .article h2 {
-    background-color: #8EAA43;
+    background-color: #e989cf;
     font-weight: bold;
     text-align: center;
     padding: 10px 10px 10px 15px;
@@ -482,7 +482,7 @@ footer li {
 
 .article p {
     font-size: 25px;
-    background-color: #7FC1BF;
+    background-color: #dd58e5;
     text-align: center;
     padding: 10px 10px 10px 15px;
 }
@@ -592,7 +592,7 @@ hr {
 
 .reset {
     height: 50px;
-    background-color: #276BA0;
+    background-color: #dd58e5;
     border: none;
     color: white;
     font-size: 20px;
@@ -604,12 +604,12 @@ hr {
 
 .reset:hover {
     border: 2px solid black;
-    background-color: #7FC1BF;
+    background-color: #dd58e5;
 }
 
 .btn {
     height: 50px;
-    background-color: #276BA0;
+    background-color: #dd58e5;
     border: none;
     color: white;
     font-size: 20px;
@@ -621,7 +621,7 @@ hr {
 
 .btn:hover {
     border: 2px solid black;
-    background-color: #7FC1BF;
+    background-color: #dd58e5;
 }
 
 .required {
@@ -702,8 +702,8 @@ label {
     header {
         position: sticky;
         top: 0;
-        background-color: #276BA0;
-        color: #7FC1BF;
+        background-color: #dd58e5;
+        color: #dd58e5;
         height: 15%;
         text-align: center;
         font-size: 20px;
@@ -735,7 +735,7 @@ label {
     }
 
     .article h1 {
-        background-color: #8EAA43;
+        background-color: #e989cf;
         font-weight: bold;
         text-align: center;
         padding: 10px 10px 10px 15px;
@@ -743,7 +743,7 @@ label {
     }
 
     .article p {
-        background-color: #7FC1BF;
+        background-color: #dd58e5;
         text-align: center;
         padding: 10px 10px 10px 15px;
         font-size: 15px;
@@ -768,7 +768,7 @@ label {
     }
 
     .submitted h1 {
-        background-color: #8EAA43;
+        background-color: #e989cf;
         font-weight: bold;
         text-align: center;
         padding: 10px 10px 10px 15px;
@@ -776,7 +776,7 @@ label {
     }
 
     .email {
-        background-color: #7FC1BF;
+        background-color: #dd58e5;
         padding: 1%;
         margin: 0 auto;
         width: 100%;
@@ -786,7 +786,7 @@ label {
     }
 
     .address {
-        background-color: #7FC1BF;
+        background-color: #dd58e5;
         padding: 1%;
         margin: 0 auto;
         width: 100%;
@@ -862,7 +862,7 @@ label {
     }
 
     .article h2 {
-        background-color: #8EAA43;
+        background-color: #e989cf;
         font-weight: bold;
         text-align: center;
         padding: 10px 10px 10px 15px;
@@ -899,7 +899,7 @@ label {
 
     .reset {
         height: 50px;
-        background-color: #276BA0;
+        background-color: #dd58e5;
         border: none;
         color: white;
         font-size: 15px;
@@ -911,7 +911,7 @@ label {
 
     .btn {
         height: 50px;
-        background-color: #276BA0;
+        background-color: #dd58e5;
         border: none;
         color: white;
         font-size: 15px;
@@ -982,8 +982,8 @@ label {
     header {
         position: sticky;
         top: 0;
-        background-color: #276BA0;
-        color: #7FC1BF;
+        background-color: #dd58e5;
+        color: #dd58e5;
         height: 15%;
         text-align: center;
         font-size: 30px;
@@ -1030,7 +1030,7 @@ label {
     }
 
     .article h1 {
-        background-color: #8EAA43;
+        background-color: #e989cf;
         font-weight: bold;
         text-align: center;
         padding: 10px 10px 10px 15px;
@@ -1038,7 +1038,7 @@ label {
     }
 
     .article p {
-        background-color: #7FC1BF;
+        background-color: #dd58e5;
         text-align: center;
         padding: 10px 10px 10px 15px;
         font-size: 15px;
@@ -1067,7 +1067,7 @@ label {
     }
 
     .submitted h1 {
-        background-color: #8EAA43;
+        background-color: #e989cf;
         font-weight: bold;
         text-align: center;
         padding: 10px 10px 10px 15px;
@@ -1132,7 +1132,7 @@ label {
     }
 
     .article h2 {
-        background-color: #8EAA43;
+        background-color: #e989cf;
         font-weight: bold;
         text-align: center;
         padding: 10px 10px 10px 15px;
@@ -1184,10 +1184,9 @@ label {
 /*
 Colours for Colour Scheme throughout site
 
-#7FC1BF - very light blue
 #DFE0DA - gray
-#8EAA43 - green
-#276BA0 - blue
-#093E62 - dark blue
+#e989cf - pink
+#dd58e5 - purple
+#83108a - dark purple
 
 */
