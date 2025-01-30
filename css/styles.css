@@ -26,7 +26,7 @@ body {
 header {
     position: sticky;
     top: 0;
-    background-color: #070108;
+    background-color: #0c0c0c;
     color: #e989cf;
     height: 15%;
     text-align: center;
@@ -90,13 +90,13 @@ header img {
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: #0e0e0e;
+    background-color: #0c0c0c;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #0e0e0e;
+    background-color: #0c0c0c;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -113,7 +113,7 @@ header img {
 }
 
 .dropdown-content a:hover {
-    background-color: #0e0e0e;
+    background-color: #0c0c0c;
 }
 
 .dropdown:hover .dropdown-content {
@@ -196,9 +196,9 @@ table {
 
 .service_message p {
     text-align: center;
-    color: #000000;
+    color: #0c0c0c;
     padding: 10px 10px 10px 15px;
-    background-color: #0e0e0e;
+    background-color: #0c0c0c;
     margin-bottom: 30px;
     font-size: 30px;
 }
@@ -229,7 +229,7 @@ footer p {
 
 
 footer {
-    background-color: #0f0210;
+    background-color: #0c0c0c;
 }
 
 footer p a {
@@ -267,7 +267,7 @@ footer li {
 }
 
 .tel-link {
-    background-color: #0e0e0e;
+    background-color: #0c0c0c;
     padding: 1%;
     margin: 0 auto;
     width: 50%;
@@ -287,7 +287,7 @@ footer li {
 }
 
 .em-link a {
-    color: #0e0e0e;
+    color: #0c0c0c;
     text-decoration: underline;
     font-size: 20px;
     display: block;
@@ -298,7 +298,7 @@ footer li {
 }
 
 .email {
-    background-color: #0e0e0e;
+    background-color: #0c0c0c;
     padding: 1%;
     margin: 0 auto;
     width: 50%;
@@ -308,7 +308,7 @@ footer li {
 }
 
 .fax {
-    background-color: #0e0e0e;
+    background-color: #0c0c0c;
     padding: 1%;
     margin: 0 auto;
     width: 50%;
@@ -317,7 +317,7 @@ footer li {
 }
 
 .address {
-    background-color: #0e0e0e;
+    background-color: #0c0c0c;
     padding: 1%;
     margin: 0 auto;
     width: 50%;
@@ -352,7 +352,7 @@ footer li {
 }
 
 .colour_box li {
-    color: #000;
+    color: #0c0c0c;
     padding: 10px 10px 10px 15px;
     background-color: #e989cf;
     margin-bottom: 3px;
@@ -519,7 +519,7 @@ footer li {
 
     body {
         background-color: white;
-        color: black;
+        color: #0c0c0c;
         font-family: 'Times New Roman', Times, serif;
     }
 
@@ -557,8 +557,8 @@ footer li {
     header {
         position: sticky;
         top: 0;
-        background-color: #060406;
-        color: #070507;
+        background-color: #0c0c0c;
+        color: #0c0c0c;
         height: 15%;
         text-align: center;
         font-size: 20px;
@@ -837,8 +837,8 @@ footer li {
     header {
         position: sticky;
         top: 0;
-        background-color: #0b0a0b;
-        color: #020202;
+        background-color: #0c0c0c;
+        color: #0c0c0c;
         height: 15%;
         text-align: center;
         font-size: 30px;
