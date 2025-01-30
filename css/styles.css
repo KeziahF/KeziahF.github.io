@@ -128,6 +128,11 @@ main {
     font-family: 'Roboto Slab', serif;
 }
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .hero {
     max-width: 20%;
     max-height: 10%;
