@@ -1,0 +1,1193 @@
+/* 
+Author: Keziah Furnell
+Date: 14/04/2024
+File Name: styles.css 
+*/
+
+
+body,
+header,
+nav,
+main,
+footer,
+h1,
+div,
+img,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #276BA0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #276BA0;
+    color: #7FC1BF;
+    height: 15%;
+    text-align: center;
+    font-size: 40px;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+.bottom_image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #276BA0;
+    top: 5.5%;
+    color: #7FC1BF;
+    height: 15%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.navbar a {
+    list-style: none;
+    font-size: 20px;
+    border-top: 1px solid #dfffff;
+    display: block;
+    color: #DFE0DA;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 2%;
+    padding-left: 2%;
+    text-decoration: none;
+    float: left;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: #DFE0DA;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    border-top: 1px solid #dfffff;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #7FC1BF;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #276BA0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #DFE0DA;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 1em;
+}
+
+.dropdown-content a:hover {
+    background-color: #7FC1BF;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+main {
+    clear: left;
+    background-color: #DFE0DA;
+    padding: 2%;
+    font-size: 1.15em;
+    font-family: 'Roboto Slab', serif;
+}
+
+.hero {
+    max-width: 100%;
+    max-height: 15%;
+}
+
+.about {
+    font-size: 20px;
+    text-align: center;
+}
+
+.family {
+    max-width: 90%;
+    max-height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.mobile_family {
+    display: none;
+}
+
+.info p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.Wellness_Package {
+    text-align: left;
+    flex-grow: 1;
+}
+
+.Wellness_Package dt {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Wellness_Package dd {
+    padding: 0.5% 1% 2% 0;
+    font-size: 20px;
+}
+
+.Wellness_Package h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.Wellness_Package h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.service_message {
+    align-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: #DFE0DA;
+}
+
+.service_message p {
+    text-align: center;
+    color: #000000;
+    padding: 10px 10px 10px 15px;
+    background-color: #8EAA43;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+#contact {
+    align-content: center;
+    text-align: center;
+}
+
+#contact a {
+    color: #0c0c0c;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+footer {
+    background-color: #276BA0;
+}
+
+footer p {
+    font-size: 1em;
+    text-align: center;
+    color: #DFE0DA;
+    padding: 0 1em;
+}
+
+footer p a {
+    color: #DFE0DA;
+    /* Sets the link colour */
+    text-decoration: none;
+}
+
+footer h4 {
+    color: #DFE0DA;
+    text-align: center;
+}
+
+footer ul {
+    color: #DFE0DA;
+    text-align: center;
+}
+
+footer li {
+    color: #DFE0DA;
+}
+
+.action {
+    font-size: 1.35em;
+    color: #666600;
+    font-weight: bold;
+}
+
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+.tel-link {
+    background-color: #7FC1BF;
+    padding: 1%;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tel-link a {
+    color: #DFE0DA;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+
+.em-link {
+    text-align: center;
+}
+
+.em-link a {
+    color: darkblue;
+    text-decoration: underline;
+    font-size: 20px;
+    display: block;
+}
+
+.email a {
+    font-size: 20px;
+}
+
+.email {
+    background-color: #7FC1BF;
+    padding: 1%;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+.fax {
+    background-color: #7FC1BF;
+    padding: 1%;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.address {
+    background-color: #7FC1BF;
+    padding: 1%;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.hours {
+    margin-left: 10%;
+}
+
+.box_column {
+    width: 100%;
+    border: 1px groove;
+    border: #DFE0DA;
+    padding: 5px;
+}
+
+.colour_box {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    border: #DFE0DA;
+}
+
+.colour_box li {
+    color: #000;
+    padding: 10px 10px 10px 15px;
+    background-color: #8EAA43;
+    margin-bottom: 3px;
+    font-size: 25px;
+}
+
+.colour_box a {
+    color: #dfffff;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.content {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+}
+
+.slideshow_container {
+    margin-bottom: 20px;
+    margin-top: 150px;
+    width: 40%;
+    position: static;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #0c0c0c;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: relative;
+    top: 0;
+}
+
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.image {
+    max-width: 70%;
+    max-height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.bio {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.report_img {
+    max-width: 60%;
+    max-height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.report2_img {
+    max-width: 80%;
+    max-height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.content_mobile {
+    display: none;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.detail {
+    font-size: 20px;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.submitted h1 {
+    background-color: #8EAA43;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 10px 10px 15px;
+}
+
+.article h1 {
+    background-color: #8EAA43;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 10px 10px 15px;
+}
+
+.article h2 {
+    background-color: #8EAA43;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 10px 10px 15px;
+}
+
+.article p {
+    font-size: 25px;
+    background-color: #7FC1BF;
+    text-align: center;
+    padding: 10px 10px 10px 15px;
+}
+
+.article dt {
+    font-weight: bold;
+}
+
+.intro {
+    font-size: 25px;
+    text-align: center;
+}
+
+.Wellness_Package_content h1 {
+    font-size: 30px;
+}
+
+.Wellness_Package_content h2 {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.Wellness_Package_content dt {
+    font-size: 20px;
+}
+
+.Wellness_Package_content dd {
+    font-size: 20px;
+}
+
+
+.Play_date h1 {
+    font-size: 30px;
+}
+
+.Play_date h2 {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.Play_date h3 {
+    font-size: 25px;
+}
+
+.Play_date li {
+    font-size: 20px;
+}
+
+.Play_date p {
+    font-size: 20px;
+}
+
+.Dog_info {
+    text-align: center;
+}
+
+.Wellness_info {
+    text-align: center;
+}
+
+/*Booking Form*/
+.basic_info {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pet {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.payment {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.booking_details {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    border: 1px dotted #ccc;
+}
+
+.reset {
+    height: 50px;
+    background-color: #276BA0;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Nanum Gothic';
+    border-radius: 4px;
+    cursor: pointer;
+    width: 25%;
+}
+
+.reset:hover {
+    border: 2px solid black;
+    background-color: #7FC1BF;
+}
+
+.btn {
+    height: 50px;
+    background-color: #276BA0;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Nanum Gothic';
+    border-radius: 4px;
+    cursor: pointer;
+    width: 70%;
+}
+
+.btn:hover {
+    border: 2px solid black;
+    background-color: #7FC1BF;
+}
+
+.required {
+    color: red;
+}
+
+input select {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding: 10px;
+}
+
+textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    height: 30%;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+/*Formatting for printing of learning page */
+@media print {
+    header {
+        font-size: 20px;
+    }
+
+    body {
+        background-color: white;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    nav {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .box_column {
+        display: none;
+    }
+
+    .article h1 {
+        font-size: 24px;
+    }
+
+    .article p {
+        font-size: 15px;
+    }
+
+    .article dt {
+        font-size: 20px;
+    }
+
+    .article dl {
+        font-size: 15px;
+    }
+}
+
+/* Media Query for Mobile Viewport */
+@media screen and (max-width: 400px) {
+    header {
+        position: sticky;
+        top: 0;
+        background-color: #276BA0;
+        color: #7FC1BF;
+        height: 15%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .navbar a {
+        list-style: none;
+        font-size: 15px;
+        border-top: 1px solid #dfffff;
+        display: block;
+        color: #DFE0DA;
+        text-align: center;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        text-decoration: none;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 15px;
+        border: none;
+        outline: none;
+        color: #DFE0DA;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        border-top: 1px solid #dfffff;
+    }
+
+    .article h1 {
+        background-color: #8EAA43;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px 10px 10px 15px;
+        font-size: 25px;
+    }
+
+    .article p {
+        background-color: #7FC1BF;
+        text-align: center;
+        padding: 10px 10px 10px 15px;
+        font-size: 15px;
+    }
+
+    .intro {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .box_column h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .colour_box li {
+        font-size: 15px;
+    }
+
+    .em-link a {
+        font-size: 15px;
+    }
+
+    .submitted h1 {
+        background-color: #8EAA43;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px 10px 10px 15px;
+        font-size: 25px;
+    }
+
+    .email {
+        background-color: #7FC1BF;
+        padding: 1%;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        border-radius: 5px;
+        text-decoration: underline;
+    }
+
+    .address {
+        background-color: #7FC1BF;
+        padding: 1%;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .about p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .about td {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .family {
+        display: none;
+    }
+
+    .mobile_family {
+        max-width: 90%;
+        max-height: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .image {
+        max-width: 80%;
+        max-height: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .bio {
+        font-size: 10px;
+        font-weight: normal;
+    }
+
+    .name {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .detail {
+        font-size: 15px;
+    }
+
+    .report_img {
+        width: 0;
+        display: none;
+    }
+
+    .report2_img {
+        display: none;
+    }
+
+    .content {
+        display: none;
+    }
+
+    .content_mobile {
+        display: block;
+    }
+
+    .article h2 {
+        background-color: #8EAA43;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px 10px 10px 15px;
+        font-size: 15px;
+    }
+
+    input select {
+        border-radius: 2px;
+        border: 2px solid #777;
+        box-sizing: border-box;
+        font-size: 10px;
+        font-family: 'Nanum Gothic';
+        width: 100%;
+        padding: 10px;
+    }
+
+    textarea {
+        border-radius: 2px;
+        border: 2px solid #777;
+        box-sizing: border-box;
+        font-size: 10px;
+        font-family: 'Nanum Gothic';
+        width: 100%;
+        height: 30%;
+        padding: 10px;
+    }
+
+    label {
+        display: block;
+        font-family: 'Nanum Gothic';
+        padding-bottom: 10px;
+        font-size: 10px;
+    }
+
+    .reset {
+        height: 50px;
+        background-color: #276BA0;
+        border: none;
+        color: white;
+        font-size: 15px;
+        font-family: 'Nanum Gothic';
+        border-radius: 4px;
+        cursor: pointer;
+        width: 25%;
+    }
+
+    .btn {
+        height: 50px;
+        background-color: #276BA0;
+        border: none;
+        color: white;
+        font-size: 15px;
+        font-family: 'Nanum Gothic';
+        border-radius: 4px;
+        cursor: pointer;
+        width: 70%;
+    }
+
+    .Wellness_Package h1 {
+        font-size: 25px;
+    }
+
+    .Wellness_Package h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .Wellness_Package dt {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .Wellness_Package dd {
+        font-size: 15px;
+
+    }
+
+    .slideshow_container {
+        display: none;
+    }
+
+    .Play_date h1 {
+        font-size: 25px;
+    }
+
+    .Play_date h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .Play_date h3 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .Play_date li {
+        font-size: 15px;
+    }
+
+    .Play_date p {
+        font-size: 15px;
+    }
+
+    .Dog_info {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .Wellness_info {
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (max-width: 1015px) and (min-width: 400px) {
+    header {
+        position: sticky;
+        top: 0;
+        background-color: #276BA0;
+        color: #7FC1BF;
+        height: 15%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .navbar a {
+        list-style: none;
+        font-size: 15px;
+        border-top: 1px solid #dfffff;
+        display: block;
+        color: #DFE0DA;
+        text-align: center;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-right: 3%;
+        padding-left: 3%;
+        text-decoration: none;
+        float: left;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 15px;
+        border: none;
+        outline: none;
+        color: #DFE0DA;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-right: 1em;
+        padding-left: 1em;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        border-top: 1px solid #dfffff;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: #DFE0DA;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .article h1 {
+        background-color: #8EAA43;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px 10px 10px 15px;
+        font-size: 25px;
+    }
+
+    .article p {
+        background-color: #7FC1BF;
+        text-align: center;
+        padding: 10px 10px 10px 15px;
+        font-size: 15px;
+    }
+
+    .intro {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .box_column h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .colour_box li {
+        font-size: 15px;
+    }
+
+    .em-link a {
+        font-size: 15px;
+    }
+
+    .em-link a {
+        font-size: 15px;
+    }
+
+    .submitted h1 {
+        background-color: #8EAA43;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px 10px 10px 15px;
+        font-size: 25px;
+    }
+
+    .about p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .about td {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .mobile_family {
+        display: none;
+    }
+
+    .image {
+        max-width: 50%;
+        max-height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .bio {
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    .name {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .detail {
+        font-size: 15px;
+    }
+
+    .report_img {
+        max-width: 80%;
+        max-height: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .report2_img {
+        max-width: 90%;
+        max-height: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .article h2 {
+        background-color: #8EAA43;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px 10px 10px 15px;
+        font-size: 20px;
+    }
+
+    .Play_date h1 {
+        font-size: 25px;
+    }
+
+    .Play_date h2 {
+        font-size: 15px;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .Play_date h3 {
+        font-size: 20px;
+    }
+
+    .Play_date li {
+        font-size: 15px;
+    }
+
+    .Play_date p {
+        font-size: 15px;
+    }
+
+    .Wellness_Package_content h1 {
+        font-size: 25px;
+    }
+
+    .Wellness_Package_content h2 {
+        font-size: 15px;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .Wellness_Package_content dt {
+        font-size: 15px;
+    }
+
+    .Wellness_Package_content dd {
+        font-size: 15px;
+    }
+}
+
+
+/*
+Colours for Colour Scheme throughout site
+
+#7FC1BF - very light blue
+#DFE0DA - gray
+#8EAA43 - green
+#276BA0 - blue
+#093E62 - dark blue
+
+*/
