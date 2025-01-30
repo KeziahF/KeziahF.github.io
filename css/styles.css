@@ -137,7 +137,7 @@ main {
     font-size: 20px;
     text-align: center;
 }
-/*
+
 .family {
     max-width: 90%;
     max-height: 90%;
@@ -193,7 +193,7 @@ main {
     text-align: center;
     color: #000000;
     padding: 10px 10px 10px 15px;
-    background-color: #e989cf;
+    background-color: #0e0e0e;
     margin-bottom: 30px;
     font-size: 30px;
 }
@@ -221,7 +221,7 @@ footer p {
     color: #DFE0DA;
     padding: 0 1em;
 }
-*/
+
 
 footer {
     background-color: #0f0210;
@@ -232,7 +232,7 @@ footer p a {
     /* Sets the link colour */
     text-decoration: none;
 }
-/*
+
 footer h4 {
     color: #DFE0DA;
     text-align: center;
@@ -251,7 +251,7 @@ footer li {
     font-size: 1.35em;
     color: #666600;
     font-weight: bold;
-}*/
+}
 
 .mobile {
     display: block;
