@@ -20,14 +20,14 @@ ul {
 }
 
 body {
-    background-color: #dd58e5;
+    background-color: #9d0cad;
 }
 
 header {
     position: sticky;
     top: 0;
-    background-color: #dd58e5;
-    color: #dd58e5;
+    background-color: #9d0cad;
+    color: #9d0cad;
     height: 15%;
     text-align: center;
     font-size: 40px;
@@ -45,9 +45,9 @@ header img {
 
 .navbar {
     overflow: hidden;
-    background-color: #dd58e5;
+    background-color: #9d0cad;
     top: 5.5%;
-    color: #dd58e5;
+    color: #9d0cad;
     height: 15%;
     text-align: center;
     font-size: 20px;
@@ -90,13 +90,13 @@ header img {
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: #dd58e5;
+    background-color: #9d0cad;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #dd58e5;
+    background-color: #9d0cad;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -113,7 +113,7 @@ header img {
 }
 
 .dropdown-content a:hover {
-    background-color: #dd58e5;
+    background-color: #9d0cad;
 }
 
 .dropdown:hover .dropdown-content {
@@ -214,7 +214,7 @@ img {
 }
 
 footer {
-    background-color: #dd58e5;
+    background-color: #9d0cad;
 }
 
 footer p {
@@ -259,7 +259,7 @@ footer li {
 }
 
 .tel-link {
-    background-color: #dd58e5;
+    background-color: #9d0cad;
     padding: 1%;
     margin: 0 auto;
     width: 50%;
@@ -290,7 +290,7 @@ footer li {
 }
 
 .email {
-    background-color: #dd58e5;
+    background-color: #9d0cad;
     padding: 1%;
     margin: 0 auto;
     width: 50%;
@@ -300,7 +300,7 @@ footer li {
 }
 
 .fax {
-    background-color: #dd58e5;
+    background-color: #9d0cad;
     padding: 1%;
     margin: 0 auto;
     width: 50%;
@@ -309,7 +309,7 @@ footer li {
 }
 
 .address {
-    background-color: #dd58e5;
+    background-color: #9d0cad;
     padding: 1%;
     margin: 0 auto;
     width: 50%;
@@ -482,7 +482,7 @@ footer li {
 
 .article p {
     font-size: 25px;
-    background-color: #dd58e5;
+    background-color: #9d0cad;
     text-align: center;
     padding: 10px 10px 10px 15px;
 }
@@ -592,7 +592,7 @@ hr {
 
 .reset {
     height: 50px;
-    background-color: #dd58e5;
+    background-color: #9d0cad;
     border: none;
     color: white;
     font-size: 20px;
@@ -604,12 +604,12 @@ hr {
 
 .reset:hover {
     border: 2px solid black;
-    background-color: #dd58e5;
+    background-color: #9d0cad;
 }
 
 .btn {
     height: 50px;
-    background-color: #dd58e5;
+    background-color: #9d0cad;
     border: none;
     color: white;
     font-size: 20px;
@@ -621,7 +621,7 @@ hr {
 
 .btn:hover {
     border: 2px solid black;
-    background-color: #dd58e5;
+    background-color: #9d0cad;
 }
 
 .required {
@@ -702,8 +702,8 @@ label {
     header {
         position: sticky;
         top: 0;
-        background-color: #dd58e5;
-        color: #dd58e5;
+        background-color: #9d0cad;
+        color: #9d0cad;
         height: 15%;
         text-align: center;
         font-size: 20px;
@@ -743,7 +743,7 @@ label {
     }
 
     .article p {
-        background-color: #dd58e5;
+        background-color: #9d0cad;
         text-align: center;
         padding: 10px 10px 10px 15px;
         font-size: 15px;
@@ -776,7 +776,7 @@ label {
     }
 
     .email {
-        background-color: #dd58e5;
+        background-color: #9d0cad;
         padding: 1%;
         margin: 0 auto;
         width: 100%;
@@ -786,7 +786,7 @@ label {
     }
 
     .address {
-        background-color: #dd58e5;
+        background-color: #9d0cad;
         padding: 1%;
         margin: 0 auto;
         width: 100%;
@@ -899,7 +899,7 @@ label {
 
     .reset {
         height: 50px;
-        background-color: #dd58e5;
+        background-color: #9d0cad;
         border: none;
         color: white;
         font-size: 15px;
@@ -911,7 +911,7 @@ label {
 
     .btn {
         height: 50px;
-        background-color: #dd58e5;
+        background-color: #9d0cad;
         border: none;
         color: white;
         font-size: 15px;
@@ -982,8 +982,8 @@ label {
     header {
         position: sticky;
         top: 0;
-        background-color: #dd58e5;
-        color: #dd58e5;
+        background-color: #9d0cad;
+        color: #9d0cad;
         height: 15%;
         text-align: center;
         font-size: 30px;
@@ -1038,7 +1038,7 @@ label {
     }
 
     .article p {
-        background-color: #dd58e5;
+        background-color: #9d0cad;
         text-align: center;
         padding: 10px 10px 10px 15px;
         font-size: 15px;
@@ -1186,7 +1186,7 @@ Colours for Colour Scheme throughout site
 
 #DFE0DA - gray
 #e989cf - pink
-#dd58e5 - purple
+#9d0cad - purple
 #83108a - dark purple
 
 */
