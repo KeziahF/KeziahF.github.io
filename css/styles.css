@@ -175,8 +175,6 @@ img {
     display: block;
 }
 
-
-
 footer p {
     font-size: 1em;
     text-align: center;
@@ -310,8 +308,8 @@ footer li {
 }
 
 .image {
-    max-width: 70%;
-    max-height: 70%;
+    max-width: 100%;
+    max-height: 100%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -668,7 +666,7 @@ footer li {
         cursor: pointer;
         width: 70%;
     }
-
+    /*
     .Wellness_Package h1 {
         font-size: 25px;
     }
@@ -722,7 +720,7 @@ footer li {
     .Wellness_info {
         text-align: center;
         font-size: 15px;
-    }
+    }*/
 }
 
 /* Media Query for Tablet Viewport */
@@ -731,7 +729,7 @@ footer li {
         position: sticky;
         top: 0;
         background-color: #0c0c0c;
-        color: #0c0c0c;
+        color: #e989cf;
         height: 15%;
         text-align: center;
         font-size: 30px;
@@ -886,7 +884,7 @@ footer li {
         padding: 10px 10px 10px 15px;
         font-size: 20px;
     }
-
+    /*
     .Play_date h1 {
         font-size: 25px;
     }
@@ -925,7 +923,7 @@ footer li {
 
     .Wellness_Package_content dd {
         font-size: 15px;
-    }
+    }*/
 }
 
 
