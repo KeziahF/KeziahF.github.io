@@ -159,7 +159,7 @@ table {
     font-size: 20px;
     text-align: center;
 }
-
+/*
 .Wellness_Package {
     text-align: left;
     flex-grow: 1;
@@ -201,7 +201,7 @@ table {
     background-color: #0c0c0c;
     margin-bottom: 30px;
     font-size: 30px;
-}
+}*/
 
 #contact {
     align-content: center;
@@ -265,7 +265,7 @@ footer li {
 .tablet-desktop {
     display: none;
 }
-
+/*
 .tel-link {
     background-color: #0c0c0c;
     padding: 1%;
@@ -328,7 +328,7 @@ footer li {
 .hours {
     margin-left: 10%;
 }
-
+*/
 .box_column {
     width: 100%;
     border: 1px groove;
